@@ -194,7 +194,7 @@
 
     async function loadMembers() {
       try {
-        const response = await fetch('members.json');
+        const response = await fetch('JSON/members.json');
         const members = await response.json();
 
         const membersList = document.getElementById('members');
@@ -231,7 +231,7 @@
 
     async function loadAchievements() {
       try {
-        const response = await fetch('achievements.json');
+        const response = await fetch('JSON/achievements.json');
         const achievements = await response.json();
 
         const achievementList = document.getElementById('achievement-list');
@@ -252,7 +252,7 @@
 
     async function loadProjects() {
       try {
-        const response = await fetch('projects.json');
+        const response = await fetch('JSON/projects.json');
         const projects = await response.json();
 
         const projectsGrid = document.getElementById('projects-grid');
