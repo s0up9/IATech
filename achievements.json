@@ -1,0 +1,27 @@
+[
+    {
+        "competition": "Competition 1",
+        "position": "1st",
+        "colorClass": "bg-gold"
+    },
+    {
+        "competition": "Competition 2",
+        "position": "1st",
+        "colorClass": "bg-gold"
+    },
+    {
+        "competition": "Competition 3",
+        "position": "1st",
+        "colorClass": "bg-gold"
+    },
+    {
+        "competition": "Competition 4",
+        "position": "2nd",
+        "colorClass": "bg-silver"
+    },
+    {
+        "competition": "Competition 5",
+        "position": "3rd",
+        "colorClass": "bg-bronze"
+    }
+]
