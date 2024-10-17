@@ -168,7 +168,7 @@ If I encounter a cryptography-related question, I can:
 
 ## Password Cracking
 
-# Hashcat
+### Hashcat
   - hashcat <hash file> <hash type> -a 0 <wordlist>
     - Ex. `hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt`
     - This runs the `hashcat` command on the `hash.txt` file (which contains your hash(es)). I then added -m 0 for an MD5 hash, and -a 0 for a dictionary attack
@@ -179,11 +179,10 @@ If I encounter a cryptography-related question, I can:
     - Eg. `hashcat has.txt -m 0 -a 0 pokemon.txt`
       - `pokemon.txt` can be found by searching for the GitHub with pokemon
 
-# JohnTheRipper
+### JohnTheRipper
+#### John the Ripper is a fast password cracker, currently available for many flavors of Unix, macOS, Windows, DOS, BeOS, and OpenVMS.
 
-## John the Ripper is a fast password cracker, currently available for many flavors of Unix, macOS, Windows, DOS, BeOS, and OpenVMS.
-
-### Usage Example:
+Usage Example:
 - Cracking MD5 Hashes: `john --format=raw-md5 hashes.txt --wordlist=wordlist.txt`
 - Cracking SHA1 Hashes: `john --format=raw-sha1 hashes.txt --wordlist=wordlist.txt`
 - Cracking bcrypt Hashes: `john --format=bcrypt hashes.txt --wordlist=wordlist.txt`
@@ -191,6 +190,7 @@ If I encounter a cryptography-related question, I can:
 `--format`: Specify the hash type (raw-md5 for MD5, raw-sha1 for SHA1, bcrypt for bcrypt)
 `--wordlist`: Specify the wordlist file to use for cracking
 `--rules`: Apply wordlist rules to modify words
-###Resources:
+
+Resources:
 - (John the Ripper Documentation)[]
 - (John the Ripper GitHub Repository)[]
