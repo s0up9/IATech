@@ -26,6 +26,9 @@ If I encounter a cryptography-related question, I can:
 - **Explore hidden messages in images:**
   - Option 1: `strings Steg1.jpg | grep SKY`
   - Option 2: [Examine image metadata for hidden data.](http://metadata2go.com/)
+  - Option 3: Use Steganography
+    - [Osrich Steg Decoder](https://osric.com/chris/steganography/decode.html)
+    - [GeorgeOm](https://georgeom.net/StegOnline/upload)
 
 ### Common Hashes and Their Examples
 
