@@ -202,3 +202,6 @@ Usage Example:
 Resources:
 - [John the Ripper Documentation]()
 - [John the Ripper GitHub Repository]()
+
+### Windows NTLM password cracking
+TODO
