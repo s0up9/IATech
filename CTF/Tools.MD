@@ -1,6 +1,31 @@
-Add these common hashes:
+Here's the integrated OSINT and Cryptography section, with all relevant resources and hashes included:
 
-Certainly! Here's an updated list that includes the Atbash cipher along with examples and methods for solving it using **CyberChef** and **dCode**.
+---
+
+## OSINT (Open Source Intelligence)
+
+If I get an OSINT question, what can I do? Depending on the question, you may:
+
+- **Just look it up!**
+- **Find metadata:** [Metadata2Go](http://metadata2go.com/)
+- **HTTP Headers questions:** [HTTP Header Fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)
+- **Website registration data lookup:** [ICANN Lookup](https://lookup.icann.org/en)
+- **PGP Lookup Database:**
+  - [Ubuntu PGP Keyserver](http://keyserver.ubuntu.com/)
+  - [OpenPGP Keyserver](http://keys.openpgp.org/)
+  - [MIT PGP Keyserver](http://pgp.mit.edu/)
+- **SSL Verification:** Check the lock icon > Connection is secure > Certificate is valid
+- **Analyze:** [Online Barcode Reader](https://online-barcode-reader.inliteresearch.com/)
+
+## Cryptography
+
+If I encounter a cryptography-related question, I can:
+
+- **Use converters:** [RapidTables Number Conversion](https://www.rapidtables.com/convert/number/index.html) (may be used for different number conversions, but not recommended)
+- **Understand types of encryption.**
+- **Explore hidden messages in images:**
+  - Option 1: `strings Steg1.jpg | grep SKY`
+  - Option 2: [Examine image metadata for hidden data.](http://metadata2go.com/)
 
 ### Common Hashes and Their Examples
 
