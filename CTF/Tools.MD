@@ -169,15 +169,23 @@ If I encounter a cryptography-related question, I can:
 ## Password Cracking
 
 ### Hashcat
-  - hashcat <hash file> <hash type> -a 0 <wordlist>
-    - Ex. `hashcat hash.txt -m 0 -a 0 /usr/share/wordlists/rockyou.txt`
-    - This runs the `hashcat` command on the `hash.txt` file (which contains your hash(es)). I then added -m 0 for an MD5 hash, and -a 0 for a dictionary attack
-    - Run `hashcat -h` if you are confused (for the help page of `hashcat`)
-  - If you know the format of the hash, you enter in as follows: `hashcat -m 0 -a 3 ./hash.txt 'SKY-HQNT-?d?d?d?d'`
-    - This runs a MD5 brute-force/mask attack on the hash.txt file looking for `SKY-HQNT-####`
-  - If you know the likely category of passwords (and not just very common ones, as is rockyou.txt), you can run the command on a wordlist of that category
-    - Eg. `hashcat has.txt -m 0 -a 0 pokemon.txt`
-      - `pokemon.txt` can be found by searching for the GitHub with pokemon
+
+#### Hashcat is a robust password recovery tool that supports various hash types and cracking modes.
+
+Usage Example:
+- Cracking MD5 Hashes: `hashcat -a 0 -m 0 hashes.txt wordlist.txt`
+- Cracking SHA1 Hashes: `hashcat -a 0 -m 100 hashes.txt wordlist.txt`
+- Cracking bcrypt Hashes: `hashcat -a 0 -m 3200 hashes.txt wordlist.txt`
+
+Commonly Used Options:
+- `-a`: Attack mode (0 for straight, 1 for combination, etc.)
+- `-m`: Hash type (0 for MD5, 100 for SHA1, 3200 for bcrypt)
+- `-o`: Output file for cracked hashes
+
+Resources:
+- [Hashcat Documentation](https://hashcat.net/wiki/)
+- [Hashcat GitHub Repository](https://github.com/hashcat/hashcat)
+
 
 ### JohnTheRipper
 #### John the Ripper is a fast password cracker, currently available for many flavors of Unix, macOS, Windows, DOS, BeOS, and OpenVMS.
@@ -192,5 +200,5 @@ Usage Example:
 `--rules`: Apply wordlist rules to modify words
 
 Resources:
-- (John the Ripper Documentation)[]
-- (John the Ripper GitHub Repository)[]
+- [John the Ripper Documentation]()
+- [John the Ripper GitHub Repository]()
