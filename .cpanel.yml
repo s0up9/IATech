@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/echo "deployed @ $(/bin/date +"%Y-%m-%d %H:%M:%S")" >> /home1/nqchbqmy/deployments.log
