@@ -1,27 +1,27 @@
 [
     {
-        "competition": "Competition 1",
+        "competition": "CornCon High School CTF Competition",
         "position": "1st",
         "colorClass": "bg-gold"
     },
     {
-        "competition": "Competition 2",
-        "position": "1st",
+        "competition": "National Cyber League (CyberSkyline) Team Competition",
+        "position": "Top 2%",
         "colorClass": "bg-gold"
     },
     {
-        "competition": "Competition 3",
-        "position": "1st",
+        "competition": "Jef - National Cyber League (CyberSkyline) Individual Competition",
+        "position": "Top 1%",
         "colorClass": "bg-gold"
     },
     {
-        "competition": "Competition 4",
-        "position": "2nd",
-        "colorClass": "bg-silver"
+        "competition": "Alex - National Cyber League (CyberSkyline) Individual Competition",
+        "position": "Top 2%",
+        "colorClass": "bg-gold"
     },
     {
-        "competition": "Competition 5",
-        "position": "3rd",
-        "colorClass": "bg-bronze"
+        "competition": "Irene - National Cyber League (CyberSkyline) Individual Competition",
+        "position": "Top 2%",
+        "colorClass": "bg-gold"
     }
 ]
