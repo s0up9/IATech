@@ -1,37 +1,37 @@
 [
     {
         "name": "Mr. (Mike) Tierney",
-        "image": "https://media.licdn.com/dms/image/v2/C4E03AQERqFrK67uoWQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1553182268522?e=1730937600&v=beta&t=2BPexcHfKcAkPOrhxROq3AE7yrbIGqjdrXsaR7y8qF0",
+        "image": "/images/profiles/michael_tierney.jpg",
         "linkedin": "https://www.linkedin.com/in/mike-tierney-63665175",
         "github": "https://github.com/example1"
     },
     {
         "name": "Alex Cantor",
-        "image": "https://media.licdn.com/dms/image/v2/D5603AQENQ6pQLboP_A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1721665038725?e=1730937600&v=beta&t=qnjVs62kPhu0jNaZvONu-crc93gi2t35rFMjbjhFV3I",
+        "image": "/images/profiles/alex_cantor.jpg",
         "linkedin": "https://www.linkedin.com/in/amcantor",
         "github": "https://github.com/alex-cantor"
     },
     {
         "name": "Jefrey (Jef) Allen",
-        "image": "https://media.licdn.com/dms/image/v2/D5603AQGtTIOsFie6Ow/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707189819865?e=1730937600&v=beta&t=aQefdq3Ppxg8mDYhTy6EoHnQpJy52AZYUDd1zHD_c2Q",
+        "image": "/images/profiles/jefery_allen.jpg",
         "linkedin": "https://www.linkedin.com/in/jefreyallen",
         "github": "https://www.github.com/invasivelycoding"
     },
     {
         "name": "Finian (Finn) Huggins",
-        "image": "https://media.licdn.com/dms/image/v2/D5603AQG_3_7R5Tsm4A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678046881923?e=1730937600&v=beta&t=s8Vqnfhz4rRYj8-0lPBWxYz-TNErUygnFpyNpH6tZPg",
+        "image": "/images/profiles/finian_huggins.jpg",
         "linkedin": "https://www.linkedin.com/in/finianhuggins",
         "github": "https://www.github.com/Hugg22"
     },
     {
         "name": "Irene Alobo",
-        "image": "https://media.licdn.com/dms/image/v2/D5603AQHrPo4e6kb1iA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731449741804?e=1736985600&v=beta&t=HTltUVYnXGz7ZUtL1oa-T6S0c_HVkXDAV4BBY6VDOrM",
+        "image": "/images/profiles/irene_alobo.jpg",
         "linkedin": "https://www.linkedin.com/in/irene-alobo/",
         "github": "https://github.com/Jossey28"
     },
     {
         "name": "Cooper Sanders",
-        "image": "https://media.licdn.com/dms/image/v2/D5603AQGaCapW_eVLqw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725930139869?e=1731542400&v=beta&t=aYqQ5-G-3gR5mS9UvYtaIumdgfmE7PIqTvNPyvqBbnE",
+        "image": "/images/profiles/cooper_sanders.jpg",
         "linkedin": "https://www.linkedin.com/in/cooper-sanders/",
         "github": "https://github.com/meyyh"
     }
